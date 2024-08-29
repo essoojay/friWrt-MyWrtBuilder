@@ -59,9 +59,9 @@ all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-fm350_git-25.
 all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-xmm_git-24.217.56735-8015371_all.ipk
 all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-natter_git-25.026.72358-0a2aa30_all.ipk
 x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/natter_0.9-2_x86_64.ipk
-x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/mihomo_2024-08-27-84831785-42_x86_64.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-mihomo_git-25.239.56167-e13e30d_all.ipk
-#
+x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/mihomo_2024-08-26-6e04e1e9-41_x86_64.ipk
+all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/luci-app-mihomo_git-25.238.52159-71bbbb6_all.ipk
+#all
 ################################################################################
 #          Old Branch version 21.02 custom external package urls list          #
 ################################################################################

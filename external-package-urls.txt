@@ -38,8 +38,8 @@
 ################################################################################
 #
 all-all https://github.com/lrdrdn/my-opkg-repo/raw/main/generic/modeminfo_0.3.6-1_all.ipk
-all-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-homeproxy_git-25.237.45007-7468bb3_all.ipk
-all-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-ipinfo_git-25.240.45241-d4e1cc1_all.ipk
+# all-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-homeproxy_git-25.237.45007-7468bb3_all.ipk
+# all-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-ipinfo_git-25.240.45241-d4e1cc1_all.ipk
 arm64 https://github.com/lrdrdn/my-opkg-repo/raw/main/aarch64_cortex-a72/atinout_0.9.1_aarch64_cortex-a72.ipk
 armv7 https://github.com/lrdrdn/my-opkg-repo/raw/main/aarch64_cortex-a53/atinout_0.9.1_aarch64_cortex-a53.ipk
 armv8 https://github.com/lrdrdn/my-opkg-repo/raw/main/aarch64_generic/atinout_0.9.1_aarch64_generic.ipk
@@ -54,14 +54,14 @@ all https://github.com/lrdrdn/my-opkg-repo/raw/main/generic/luci-app-mmconfig_0.
 all https://github.com/lrdrdn/my-opkg-repo/raw/main/generic/luci-app-poweroff_20200726_all.ipk
 all https://github.com/lrdrdn/my-opkg-repo/raw/main/generic/luci-app-tinyfm_2.6_all.ipk
 all https://github.com/lrdrdn/my-opkg-repo/raw/main/generic/xmm-modem_0.1.2-0_all.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/fm350-modem_0.0.2-6_all.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-ipinfo_git-25.240.45241-d4e1cc1_all.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-fm350_git-25.126.44902-a51fdfc_all.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-xmm_git-24.217.56735-8015371_all.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-natter_git-25.026.72358-0a2aa30_all.ipk
-x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/natter_0.9-2_x86_64.ipk
-x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/mihomo_2024-08-26-6e04e1e9-41_x86_64.ipk
-all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/luci-app-mihomo_git-25.238.52159-71bbbb6_all.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/fm350-modem_0.0.2-6_all.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-ipinfo_git-25.240.45241-d4e1cc1_all.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-fm350_git-25.126.44902-a51fdfc_all.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-proto-xmm_git-24.217.56735-8015371_all.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/luci-app-natter_git-25.026.72358-0a2aa30_all.ipk
+# x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/natter_0.9-2_x86_64.ipk
+# x86 https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/mihomo_2024-08-26-6e04e1e9-41_x86_64.ipk
+# all https://dl.openwrt.ai/23.05/packages/x86_64/kiddin9/old/luci-app-mihomo_git-25.238.52159-71bbbb6_all.ipk
 #all
 ################################################################################
 #          Old Branch version 21.02 custom external package urls list          #

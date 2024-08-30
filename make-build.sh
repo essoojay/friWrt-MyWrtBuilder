@@ -57,6 +57,9 @@ PACKAGES+=" internet-detector luci-app-internet-detector internet-detector-mod-m
 # Speedtest
 PACKAGES+=" librespeed-go python3-speedtest-cli iperf3 luci-app-netspeedtest"
 
+# Applications
+PACKAGES+=" luci-app-natter natter luci-app-mihomo mihomo luci-app-homeproxy luci-app-ipinfo"
+
 # Base64 Encode Decode
 PACKAGES+=" luci-app-base64"
 

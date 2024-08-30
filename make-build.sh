@@ -10,15 +10,18 @@ PACKAGES=""
 # Modem and UsbLAN Driver
 PACKAGES+=" kmod-usb-net-rtl8150 kmod-usb-net-rtl8152 kmod-usb-net-asix kmod-usb-net-asix-ax88179"
 PACKAGES+=" kmod-mii kmod-usb-net kmod-usb-wdm kmod-usb-net-qmi-wwan uqmi luci-proto-qmi \
-kmod-usb-net-cdc-ether kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan qmi-utils fm350-modem \
-kmod-usb-serial-qualcomm kmod-usb-acm kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim modeminfo-serial-fm350 \
-modemmanager luci-proto-modemmanager libmbim libqmi usbutils luci-proto-mbim luci-proto-ncm luci-proto-fm350 \
+kmod-usb-net-cdc-ether kmod-usb-serial-option kmod-usb-serial kmod-usb-serial-wwan qmi-utils \
+kmod-usb-serial-qualcomm kmod-usb-acm kmod-usb-net-cdc-ncm kmod-usb-net-cdc-mbim umbim \
+modemmanager luci-proto-modemmanager libmbim libqmi usbutils luci-proto-mbim luci-proto-ncm luci-proto-3g \
 kmod-usb-net-huawei-cdc-ncm kmod-usb-net-cdc-ether kmod-usb-net-rndis kmod-usb-net-sierrawireless kmod-usb-ohci kmod-usb-serial-sierrawireless \
 kmod-usb-uhci kmod-usb2 kmod-usb-ehci kmod-usb-net-ipheth usbmuxd libusbmuxd-utils libimobiledevice-utils usb-modeswitch kmod-nls-utf8 mbim-utils xmm-modem \
 kmod-phy-broadcom kmod-phylib-broadcom kmod-tg3"
 
 # Modem Tools
-PACKAGES+=" modeminfo luci-app-modeminfo atinout modemband luci-app-modemband luci-app-mmconfig sms-tool luci-app-sms-tool-js luci-app-lite-watchdog luci-app-3ginfo-lite picocom minicom"
+PACKAGES+=" modeminfo modeminfo-serial-fm350 fm350-modem luci-proto-fm350 luci-app-modeminfo atinout modemband luci-app-modemband luci-app-mmconfig sms-tool luci-app-sms-tool-js luci-app-lite-watchdog luci-app-3ginfo-lite picocom minicom"
+
+# Wireless
+PACKAGES+=" kmod-ath ath10k-firmware-qca988x-ct-full-htt ath10k-firmware-qca6174 kmod-ath10k-ct kmod-usb2 kmod-usb3 kmod-mt7921-firmware kmod-mt7921e kmod-mt7922-firmware
 
 # Tunnel option
 OPENCLASH_FW3="coreutils-nohup bash iptables dnsmasq-full curl ca-certificates ipset ip-full iptables-mod-tproxy iptables-mod-extra libcap libcap-bin ruby ruby-yaml kmod-tun unzip luci-compat luci luci-base luci-app-openclash"
